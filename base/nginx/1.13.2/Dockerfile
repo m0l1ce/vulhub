@@ -1,3 +1,3 @@
-FROM nginx:1.13.2
+FROM nginx:latest
 
 MAINTAINER phithon <root@leavesongs.com>
