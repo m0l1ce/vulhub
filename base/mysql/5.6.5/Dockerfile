@@ -30,7 +30,7 @@ RUN set -ex && \
     cmake . && make && make install && \
     rm -rf /root/mysql-server-mysql-${MYSQL_VERSION}
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 LABEL maintainer="phithon <root@leavesongs.com>"
 
 COPY --from=build-env /usr/local/mysql /usr/local/mysql
