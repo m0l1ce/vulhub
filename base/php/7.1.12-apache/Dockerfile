@@ -1,3 +1,3 @@
-FROM php:7.1.12-apache
+FROM php:7.4.25-apache
 
 MAINTAINER phithon <root@leavesongs.com>
