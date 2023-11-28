@@ -1,4 +1,4 @@
-FROM tomcat:8.5.19
+FROM tomcat:8.5.95
 
 MAINTAINER phithon <root@leavesongs.com>
 
