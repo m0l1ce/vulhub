@@ -4,7 +4,7 @@
 # docker run -d --name zabbix-server -h zabbix-server -p 10051:10051 zabbix-server
 #
 #
-FROM  alpine:3.4
+FROM  alpine:3
 LABEL maintainer="phithon <root@leavesongs.com>"
 
 ARG APK_FLAGS_COMMON="-q"
