@@ -13,7 +13,7 @@ WORKDIR ${GOPATH}/src/code.gitea.io/gitea
 #Checkout version if set
 RUN make clean generate build
 
-FROM alpine:3.7
+FROM alpine:3
 LABEL maintainer="maintainers@gitea.io"
 
 EXPOSE 22 3000
