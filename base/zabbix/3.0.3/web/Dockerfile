@@ -4,7 +4,7 @@
 # docker build --force-rm -t zabbix-web .
 # docker run -d --name zabbix-web -h zabbix-web -p 80:80 zabbix-web
 #
-FROM alpine:3.4
+FROM alpine:3
 LABEL maintainer="phithon <root@leavesongs.com>"
 
 ARG        APK_FLAGS_COMMON="-q"
