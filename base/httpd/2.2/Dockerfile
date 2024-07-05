@@ -1,3 +1,3 @@
-FROM httpd:2.2
+FROM httpd:2.4.61
 
 MAINTAINER phithon <root@leavesongs.com>
