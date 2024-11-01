@@ -1,3 +1,4 @@
 jinja2==2.9.6
 flask==0.12.1
 gunicorn
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
