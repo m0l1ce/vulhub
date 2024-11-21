@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 LABEL maintainer="phithon <root@leavesongs.com>"
 
 ADD install/ /opt/
