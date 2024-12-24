@@ -1,3 +1,3 @@
-FROM python:3.4
+FROM python:3.14.0a3
 
 MAINTAINER phithon <root@leavesongs.com>
